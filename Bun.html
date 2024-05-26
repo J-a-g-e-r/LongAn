@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cách chế biến món bún xiêm lo </title><style>
+        
+        #header img {
+            height:300px;
+            width:30%;
+            float:left;
+            display: flow-root;
+        }
+        #header h1 {
+            color: white;
+            font-size: 2vw;
+            font-size: 70px;
+            margin-top: 90px;
+            vertical-align: middle;
+        }
+        #header {
+              background: linear-gradient(-45deg, #0ef412, #e73c7e, #23a6d5, #23d5ab);
+              background-size: 400% 400%;
+              animation: gradient 10s ease infinite;
+              height:300px;
+              width: 100%;
+              display: flow-root;
+        }
+
+        @keyframes gradient { 
+           0% {
+              background-position: 0% 50%;
+                  }
+           50% {
+               background-position: 100% 50%;
+             }
+            100% {
+                background-position: 0% 50%;
+             }
+       }
+       body {
+        background-color: #e2f5e2;
+       }
+       @keyframes jump {
+           0% {
+           transform: translateY(0);
+             }
+           50% {
+              transform: translateY(-20px);
+             }
+           100% {
+           transform: translateY(0);
+          }
+       }
+
+        .text span {
+           display: inline-block;
+           animation: jump 1s infinite alternate; /* Hiệu ứng nhảy ngược và chuyển động lặp lại */
+        }
+
+       .text span {
+        font-size: 40px;
+        
+        color: #db4f09;
+       }
+       .image {
+        border-radius: 30%;
+        
+       }
+
+       #gioithieu  {
+        display: inline-flex; 
+        align-items: center; 
+       }
+       #gioithieu img {
+        margin-right: 10px;
+       }
+       #gioithieu p {
+        font-size: 25px;
+       }
+       #nguyenlieu p {
+        font-size: 25px;
+       }
+       #chebien p{
+        font-size: 25px;
+       }
+
+       #footer {
+        font-size: 25px;
+        color: rgb(16, 33, 215);
+        text-align: center;
+       }
+       @keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+
+       
+
+       
+
+    </style>
+</head>
+<body>
+    <div id="header" align="center">
+        <img src="https://chin.vn/wp-content/uploads/2024/04/cach-nau-bum-xiem-lo.jpg">
+        <h1> Cách chế biến món "Bún xiêm lo " </h1>
+    </div>
+    <div class="text">
+        <span>GIỚI THIỆU VỀ MÓN ĂN</span>
+        </div>
+        <div id="gioithieu">
+            <img src="data:image/jpeg;base64,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" class="image" alt="Your Image" width="30%">
+            <p>
+                Bún xiêm lo là một món ăn đặc sản của vùng Tây Nam bộ Việt Nam, đặc biệt phổ biến ở các tỉnh thành như Vĩnh Long, Cần Thơ, Long An và các vùng lân cận. Món ăn này mang trong mình hương vị đậm đà của miền Tây, kết hợp giữa bún mềm mại, tươi ngon với hải sản và rau sống tươi xanh, tạo nên một trải nghiệm ẩm thực độc đáo và hấp dẫn.
+
+Bún xiêm lo thường được chế biến từ các nguyên liệu chính như bún tươi, tôm, cua, bún cá, và thêm một loạt các loại rau sống như rau mùng tơi, rau răm, bắp chuối, đồng thời được ướp chua từ các loại gia vị như dầu mè, nước mắm, đường, ớt và tỏi. Mỗi thành phần được kết hợp một cách cân đối và tinh tế, tạo nên một hương vị đặc trưng và hấp dẫn riêng biệt.
+
+Món bún xiêm lo thường được phục vụ với một đĩa rau sống tươi ngon và nước mắm pha chua ngọt đậm đà. Khi thưởng thức, người ta thường kết hợp bún với hải sản và rau sống, sau đó nhúng vào nước mắm chua ngọt để tăng thêm hương vị. Hương thơm của các loại gia vị, hương vị đậm đà của hải sản và sự tươi ngon của rau sống tạo nên một trải nghiệm ẩm thực đặc biệt, đậm chất miền Tây.
+            </p>
+        </div>
+        <div class="text">
+            <span>NGUYÊN LIỆU</span>
+            </div>
+        <div id="nguyenlieu">
+            <p>
+                - 1 con cá lóc (khoảng 700g)<br>
+                - 500g bún tươi<br>
+                - 200g da heo<br>
+                - 100g đậu phộng rang<br>
+                - 2 muỗng canh nghệ giã<br>
+                - 1 muỗng canh hành tím băm<br>
+                - 1 muỗng cà phê tỏi băm<br>
+                - 1 muỗng cà phê ớt băm<br>
+                - 1 muỗng cà phê tiêu xay<br>
+                - 1 muỗng cà phê muối<br>
+                - 1 muỗng cà phê đường<br>
+                - 1 lít nước<br>
+                - Rau sống, giá đỗ, chanh, ớt<br>
+            </p>
+        </div>
+        <div class="text" align="center">
+            <span >CÁCH CHẾ BIẾN</span>
+        
+            </div>
+            <div id="chebien">
+                <p>
+                <i><b>Bước 1:Sơ chế nguyên liệu</b></i>  <br>  
+                    - Cá lóc làm sạch, cắt khúc.<br>
+                    - Da heo luộc chín, cắt sợi.<br>
+                    - Đậu phộng rang giã nhỏ<br>
+                    - Rau sống rửa sạch, cắt nhỏ.<br>
+                    - Giá đỗ rửa sạch.<br>  
+                    - Pha nước chấm: 1 muỗng canh nước mắm, 1 muỗng canh đường, 1 muỗng canh nước cốt chanh, ớt băm, tỏi băm.<br>  
+
+                <i><b>Bước 2:Nấu nước lèo</b></i><br>
+                    - Cho cá lóc vào nồi, đổ nước vào nấu sôi.<br>
+                    - Khi cá chín, vớt cá ra, gỡ lấy thịt, bỏ xương.<br>
+                    - Cho nghệ giã vào nồi nước lèo, nấu sôi.<br>
+                    - Nêm nếm gia vị: muối, đường, tiêu xay cho vừa ăn.<br>
+                <i><b>Bước 3:Chế biến cá</b></i><br>
+                - Cho thịt cá lóc vào tô, thêm hành tím băm, tỏi băm, ớt băm, muối, tiêu xay, trộn đều.<br>
+                - Nặn hỗn hợp cá thành viên vừa ăn.<br>
+                - Cho viên cá vào nồi nước lèo, nấu chín.<br>
+
+                <i><b>Bước 4:Hoàn thành</b></i><br>
+                - Cho bún vào tô, xếp cá lóc, da heo, rau sống, giá đỗ lên trên.<br>
+                - Chan nước lèo nóng hổi vào tô bún.<br>
+                - Rắc đậu phộng rang, ớt cắt lát lên trên.<br>
+                - Thưởng thức bún xiêm lo với nước chấm chua ngọt.<br>
+                </p>
+
+            </div>
+            <div id="footer">
+                <p class="blink">Chúc bạn thưởng thức mỗi miếng ăn với tất cả niềm đam mê và tình yêu dành cho nấu ăn.<br>
+                    Hãy tiếp tục khám phá và sáng tạo, bởi cuộc phiêu lưu ẩm thực không bao giờ kết thúc! </p><br>
+
+                    <strong> VNFoods.</strong>
+            </div>
+
+
+        
+    
+    
+</body>
+</html>
